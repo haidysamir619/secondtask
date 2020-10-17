@@ -1,0 +1,37 @@
+*{margin:0;padding:0;}
+nav ul{background-color:#000;list-style:none;width:100%;text-align:center;}
+nav ul li {display:inline-block;margin:15px;}
+nav ul li a{color:#eee;text-decoration:none;font-size:24px;}
+#home{
+	background-color:#eee;
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+#home p{font-size:20px;}
+#prev_project{width:100%;margin:20px 0;}
+#prev_project h2{text-align:center;margin-bottom:20px;text-align:center}
+#prev_project img{
+	margin:auto;
+	width:32.333%;
+	margin-right:1.5%;
+    float: left;
+	height:450px;
+}
+#prev_project img:last-of-type{margin-right:0%;}
+#about{
+	text-align:center;
+	padding:40px 0;
+	clear:both;
+	background-color:#eee;
+}
+#footer{
+	background-color:#000;
+	color:#fff;
+	text-align:center;
+	padding:20px;
+}
+#footer .socil-links ul li{display:inline-block}
+#footer ul li i{color:#fff;}
+form {display:block;margin:auto;width:250px;}
+	
