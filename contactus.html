@@ -11,13 +11,16 @@
 	
 	
 	<body>
-         <form action="" >
-				<label for="email">Email:</label><br>
-				<input type="email" required  id="email" name="email" placeholder="email"><br>
-				<label for="email">Type Your Message:</label><br>
-				<textarea name="message" cols="30" rows="5" ></textarea>
+	  <section id="our_form">
+         <form>
+				<label for="email">Email:</label>
+				<input type="email" required  id="email" name="email" placeholder="email" autocomplete="off" pattern="^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+				<label for="email">Type Your Message:</label>
+				<textarea name="message" cols="30" rows="5" placeholder="type your message" required></textarea>
 				<input type="submit" value="Login">
 		
 	     </form>
+	  </section>
+	 
 	</body>
 </html>
