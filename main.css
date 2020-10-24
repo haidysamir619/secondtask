@@ -15,7 +15,6 @@ body {
 
 header {
 	background-color: #a32020;
-	height: 100%;
 }
 
 nav {
@@ -211,18 +210,19 @@ nav ul li a {
 
 
 /*end footer section*/
-
+#our_form{
+	background-color: #dec69c;
+	padding: 80px 0;
+}
 #our_form form {
 	width: 400px;
 	padding: 20px 25px;
-	background-color: #dec69c;
+	background-color: #a32020;
 	border-radius: 5px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -70%);
 	font-size: 18px;
-	color: #A32020;
+	color: #dec69c;
+	margin: auto;
+
 }
 
 form input,
@@ -252,15 +252,14 @@ textarea {
 input[type="submit"] {
 	padding: 7px 25px;
 	font-size: 16px;
-	color: #fff;
+	color: #a32020;
 	border-radius: 10px;
-	box-shadow: 1px 2px 15px 2px #f9b2b2;
+	box-shadow: 1px 2px 15px 2px #dec69c;
 	margin: 10px auto 0;
-	background-color: #A32020;
+	background-color: #dec69c;
 }
 
 input[type="submit"]:hover {
-	opacity: 0.8;
 	cursor: pointer;
 }
 
